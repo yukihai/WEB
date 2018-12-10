@@ -49,7 +49,7 @@ function Toggle(x,y){
 <body id="page-top">
 	<nav class="navbar navbar-expand navbar-dark bg-dark static-top" onclick="DoTest('1','10')">
 
-		<a class="navbar-brand mr-1" href="index.html">Thi trắc nghiệm</a>
+		<a class="navbar-brand mr-1" href="Home.jsp">Thi trắc nghiệm</a>
 
 		<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
 			<i class="fas fa-bars"></i>
@@ -109,7 +109,7 @@ function Toggle(x,y){
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="index.html">
+				<a class="nav-link" href="Home.jsp">
 					<i class="fas fa-fw fa-tachometer-alt"></i>
 					<span>Giao Diện</span>
 				</a>

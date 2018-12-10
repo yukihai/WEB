@@ -76,7 +76,7 @@ $(document).ready(function(){
   
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.html">Thi trắc nghiệm</a>
+      <a class="navbar-brand mr-1" href="Home.jsp">Thi trắc nghiệm</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -158,12 +158,12 @@ $(document).ready(function(){
         </li>
         
         <li id="hide2" class="nav-item">
-          <a class="nav-link" href="MakeNewTest.jsp">
+          <a class="nav-link" href="MakeNewTest.html">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Thêm đề thi</a>	
         </li>
         <li id="hide3" class="nav-item">
-          <a class="nav-link" href="AddQuestions.jsp">
+          <a class="nav-link" href="AddQuestions.html">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Thêm câu hỏi</a>	
         </li>

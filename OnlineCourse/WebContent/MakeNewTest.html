@@ -30,7 +30,7 @@ $(document).ready(function(){
 <body>
 		<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.html">Thi trắc nghiệm</a>
+      <a class="navbar-brand mr-1" href="Home.jsp">Thi trắc nghiệm</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -159,8 +159,8 @@ $(document).ready(function(){
 			<form action="AddNewTest" method="post">
 				<input id="sid" type="hidden" name = "userid" value="0">
 					<div class="form-group row">
-						Tiêu đề:
 						<div class="col-sm-11">
+              Tiêu đề:
 							<input type="text" class="form-control" name="tittle">
 						</div>
 					</div>
@@ -172,19 +172,25 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div class="form-group row">
-						Mã môn học:
+						
 						<div class="col-sm-11">
+              Mã môn học:
 							<input type="text" class="form-control" name="courseid">
 						</div>
 					</div>
 					<div class="form-group row">
-						Thời gian:
+						
 						<div class="col-sm-11">
+              Thời gian:
 							<input type="text" class="form-control" name="period">
 						</div>
 					</div>
-					<input type="submit" value="Tạo đề thi">
-					
+          <center>
+            
+          <input type="submit" value="Tạo đề thi">
+        
+            
+          </center>	
 					
 					</form>	
 		</div>
