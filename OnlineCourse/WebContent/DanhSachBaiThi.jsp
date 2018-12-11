@@ -83,84 +83,12 @@
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="index.html">
+				<a class="nav-link" href="Home.jsp">
 					<i class="fas fa-fw fa-tachometer-alt"></i>
 					<span>Giao Diện</span>
 				</a>
 			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-fw fa-folder"></i>
-					<span>Trang</span>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="pagesDropdown">
-					<h6 class="dropdown-header">Màn hình đăng nhập:</h6>
-					<a class="dropdown-item" href="login.html">Đăng nhập</a>
-					<a class="dropdown-item" href="register.html">Đăng kí</a>
-					<a class="dropdown-item" href="forgot-password.html">Quên mật khẩu</a>
-					<div class="dropdown-divider"></div>
-					<h6 class="dropdown-header">Các trang khác:</h6>
-					<a class="dropdown-item" href="404.html">404 Page</a>
-					<a class="dropdown-item" href="blank.html">Blank Page</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-cubes"></i>
-					<span>Quản lý thành viên</span>
-				</a>
-
-				<div class="dropdown-menu" aria-labelledby="pagesDropdown">
-					<h6 class="dropdown-item">Bao gồm: </h6>
-					<a class="dropdown-item" href="thanhvien.html">Danh sách thành viên</a>
-					<a class="dropdown-item" href="*">Thêm</a>
-					<a class="dropdown-item" href="*">Sửa</a>
-					<a class="dropdown-item" href="*">Xóa</a>
-					<a class="dropdown-item" href="*">Tìm kiếm</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-cubes"></i>
-					<span>Quản lý đề thi</span>
-				</a>
-
-				<div class="dropdown-menu" aria-labelledby="pagesDropdown">
-					<h6 class="dropdown-item">Bao gồm: </h6>
-					<a class="dropdown-item" href="Lambai.html">Danh sách đề thi</a>
-					<a class="dropdown-item" href="*">Upload</a>
-					<a class="dropdown-item" href="*">Sửa</a>
-					<a class="dropdown-item" href="*">Xóa</a>
-					<a class="dropdown-item" href="*">Tìm kiếm</a>
-				</div>
-
-			</li>
-
-
-			<li class="nav-item">
-				<a class="nav-link" href="charts.html">
-					<i class="fas fa-fw fa-chart-area"></i>
-					<span>Biểu đồ</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="tables.html">
-						<i class="fas fa-fw fa-table"></i>
-						<span>Bảng</span></a>
-					</li>
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fas fa-portrait"></i>
-							<span>Tài khoản cá nhân</span>
-						</a>
-						<div class="dropdown-menu" aria-labelledby="pagesDropdown">
-							<h6 class="dropdown-item">Thông tin cá nhân: </h6>
-							<a class="dropdown-item" href="taikhoan.html">Tài khoản</a>
-							<a class="dropdown-item" href="*">Đổi mật khẩu</a>
-							<a class="dropdown-item" href="*">Đăng xuất</a>
-						</div>
-					</li>
-				</ul>
+		</ul>
 				<div id="content-wrapper">
 
 					<div class="container-fluid">

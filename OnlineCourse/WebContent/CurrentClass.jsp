@@ -118,23 +118,9 @@ function Toggle(x,y){
 					<span>Trang chủ</span>
 				</a>
 			</li>
-
-			<li class="nav-item">
-				<a class="nav-link" href="#">
-					<i class="fas fa-fw fa-chart-area"></i>
-					<span>Danh sách sinh viên</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">
-						<i class="fas fa-fw fa-table"></i>
-						<span>Danh sách đề thi</span></a>
-					</li>
-					
-				</ul>
-				<div id="content-wrapper">
-
-					<div class="container-fluid">
-
+		</ul>
+			<div id="content-wrapper">
+				<div class="container-fluid">
 						<!-- Breadcrumbs-->
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item">

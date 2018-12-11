@@ -41,7 +41,7 @@ public class LoadList extends HttpServlet {
 			result = get.GetTestList(classid);
 			request.setAttribute("classid", classid);
 		}
-		if(level==3)
+		if(level==3 || level ==5)
 		{
 			result = get.GetAllTest();
 		}
@@ -61,7 +61,7 @@ public class LoadList extends HttpServlet {
 		{
 			request.getRequestDispatcher("LoadTest.jsp").forward(request, response);
 		}
-		if(level==3)
+		if(level==3 || level == 5)
 		{
 			request.getRequestDispatcher("TestControlPage.jsp").forward(request, response);
 		}
