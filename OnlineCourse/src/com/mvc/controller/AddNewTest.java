@@ -55,7 +55,6 @@ public class AddNewTest extends HttpServlet {
 				if(result.equals("SUCCESS"))
 				{
 					request.setAttribute("message", "Add new test completed");
-					
 				}
 				else
 				{

@@ -7,9 +7,9 @@ public class DBConnection {
 	public static Connection createConnection()
 	{
 		Connection con = null;
-		String url = "jdbc:mysql://localhost:3306/web_database";//?verifyServerCertificate=false&useSSL=true"; //MySQL URL followed by the database name
+		String url = "jdbc:mysql://localhost:3306/webdata";//?verifyServerCertificate=false&useSSL=true"; //MySQL URL followed by the database name
 		String username = "root"; //MySQL username
-		String password = "asdasd123"; //MySQL password
+		String password = "daonhattam"; //MySQL password
 		try
 		{
 			try

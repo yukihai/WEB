@@ -1,4 +1,4 @@
-package com.mvc.controller;
+ package com.mvc.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -33,7 +33,7 @@ public class LoadStudentInClass extends HttpServlet {
 		GetdataDAO get = new GetdataDAO();
 		String[][] result = get.GetStudentFromClass(classid);
 		String text="";
-		text+="<table><tr><th>StudentID</th><th>StudentName</th></tr>";
+		text+="<table border = 2><tr><th>StudentID</th><th>StudentName</th></tr>";
 		int i=0;
 		while(result[i][0]!=null)
 		{

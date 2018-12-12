@@ -41,7 +41,7 @@ public class LoadClass extends HttpServlet {
 			result = get.GetClassListForStudent(userid);
 		}
 		String text="";
-		text+="<table><tr><th>ClassID</th><th>ClassName</th><th>TeacherName</th></tr>";
+		text+="<table border = 2><tr><th>ClassID</th><th>ClassName</th><th>TeacherName</th><th></th></tr>";
 		int i=0;
 		while(result[i][0]!=null)
 		{

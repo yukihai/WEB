@@ -31,6 +31,7 @@ public class AddClass extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		int teacherid = Integer.parseInt(request.getParameter("userid"));
+		int level =  Integer.parseInt(request.getParameter("level"));
 		String action = request.getParameter("action");
 		AddDAO add = new AddDAO();
 		String result=null;
@@ -58,6 +59,7 @@ public class AddClass extends HttpServlet {
 		if(result.equals("SUCCESS"))
 		{
 			message="SUCCESS";
+			request.setAttribute("level", level);
 			request.setAttribute("userid", teacherid);
 			request.setAttribute("message", message);
 			request.getRequestDispatcher("LoadClass").forward(request, response);

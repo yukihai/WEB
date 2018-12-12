@@ -76,11 +76,8 @@ $(document).ready(function(){
   
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="Home.jsp">Thi trắc nghiệm</a>
+      <a class="navbar-brand mr-1" href="">Thi trắc nghiệm</a>
 
-      <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-        <i class="fas fa-bars"></i>
-      </button>
 
       <!-- Navbar Search -->
       <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -140,9 +137,9 @@ $(document).ready(function(){
       <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="Home.jsp">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Giao Diện</span>
+            <span>Trang chủ</span>
           </a>
         </li>
         <li id="hide0" class="nav-item">
@@ -158,12 +155,12 @@ $(document).ready(function(){
         </li>
         
         <li id="hide2" class="nav-item">
-          <a class="nav-link" href="MakeNewTest.html">
+          <a class="nav-link" href="MakeNewTest.jsp">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Thêm đề thi</a>	
         </li>
         <li id="hide3" class="nav-item">
-          <a class="nav-link" href="AddQuestions.html">
+          <a class="nav-link" href="AddQuestions.jsp">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Thêm câu hỏi</a>	
         </li>
@@ -180,9 +177,9 @@ $(document).ready(function(){
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <h6 class="dropdown-item">Thông tin cá nhân: </h6>
-            <a class="dropdown-item" href="*">Tài khoản</a>
-            <a class="dropdown-item" href="*">Đổi mật khẩu</a>
-            <a class="dropdown-item" href="*">Đăng xuất</a>
+            <a class="dropdown-item">Tài khoản</a>
+            <a class="dropdown-item">Đổi mật khẩu</a>
+            <a class="dropdown-item">Đăng xuất</a>
           </div>
         </li>
       </ul>
