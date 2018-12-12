@@ -17,12 +17,7 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script>
 	$(document).ready(function() {
-		var x =
-<%=request.getAttribute("message")%>
-	;
-		if (x != "") {
-			alert(x);
-		}
+		var x = <%=request.getAttribute("message")%>;
 		$("#sid").val(localStorage.getItem("userid"));
 	});
 </script>
@@ -115,22 +110,42 @@
 				</div></li>
 		</ul>
 		<div id="content-wrapper">
-
 			<div class="container-fluid">
-
-				<!-- Breadcrumbs-->
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="">Giao Diện</a></li>
-				</ol>
 				<form action="AddNewTest" method="post">
 					<input id="sid" type="hidden" name="userid" value="0">
-					Title:<br> <input type="text" name="title"><br>
-					Question number:<br> <input type="text" name="quantity"><br>
-					Course id:<br> <input type="text" name="courseid"><br>
-					Time:<br> <input type="text" name="period"><br>
-					<br> <input type="submit" value="Create">
-				</form>
+					<div class="form-group row">
+						<div class="col-sm-11">
+							Tiêu đề: <input type="text" class="form-control" name="tittle">
+						</div>
+					</div>
+					<div class="form-group row">
 
+						<div class="col-sm-11">
+							Số lượng câu hỏi: <input type="text" class="form-control"
+								name="quantity">
+						</div>
+					</div>
+					<div class="form-group row">
+
+						<div class="col-sm-11">
+							Mã môn học: <input type="text" class="form-control"
+								name="courseid">
+						</div>
+					</div>
+					<div class="form-group row">
+
+						<div class="col-sm-11">
+							Thời gian: <input type="text" class="form-control" name="period">
+						</div>
+					</div>
+					<center>
+
+						<input type="submit" value="Tạo đề thi">
+
+
+					</center>
+
+				</form>
 				<!-- Sticky Footer -->
 				<footer class="sticky-footer">
 					<div class="container my-auto">
@@ -139,10 +154,7 @@
 						</div>
 					</div>
 				</footer>
-
 			</div>
-			<!-- /.content-wrapper -->
-
 		</div>
 	</div>
 	<script src="vendor/jquery/jquery.min.js"></script>
@@ -162,5 +174,8 @@
 	<!-- Demo scripts for this page-->
 	<script src="js/demo/datatables-demo.js"></script>
 	<script src="js/demo/chart-area-demo.js"></script>
+
+
+
 </body>
 </html>

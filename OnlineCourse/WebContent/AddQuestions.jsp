@@ -45,11 +45,12 @@
 			});
 </script>
 </head>
+<body>
 <div id="wrapper">
 
 	<!-- Sidebar -->
 	<ul class="sidebar navbar-nav">
-		<li class="nav-item active"><a class="nav-link" href="index.html">
+		<li class="nav-item active"><a class="nav-link" href="">
 				<i class="fas fa-fw fa-tachometer-alt"></i> <span>Trang chủ</span>
 		</a></li>
 
@@ -66,62 +67,86 @@
 			</div></li>
 	</ul>
 	<div id="content-wrapper">
+		<div class="container-fluid">
+			<ol class="breadcrumb">
+				Mã môn học: &nbsp;<input type="text" name ="courseid">
+			</ol>
+		</div>
+
+
 
 		<div class="container-fluid">
-
-			<!-- Breadcrumbs-->
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="#">Giao Diện</a></li>
-			</ol>
-			<input type="hidden" id="courseid" value="3">
-			<div style="padding-top: 30px">
-				<label>Home/Courses/English</label>
-			</div>
-			<div style="padding-top: 30px">
-				Question:<br>
-				<textarea style="width: 80%; height: 100px" id="questioncontent"></textarea>
-				<br>
-			</div>
-			<br>Answer:<br>
-			<div style="padding-top: 30px">
-				A:
-				<textarea id="Acontent" style="width: 80%; height: 50px"></textarea>
-				<input id="0" type="radio" name="correctanswer">Correct
-				Answer
-			</div>
-			<div style="padding-top: 30px">
-				B:
-				<textarea id="Bcontent" style="width: 80%; height: 50px"></textarea>
-				<input id="1" type="radio" name="correctanswer">Correct
-				Answer
-			</div>
-			<div style="padding-top: 30px">
-				C:
-				<textarea id="Ccontent" style="width: 80%; height: 50px"></textarea>
-				<input id="2" type="radio" name="correctanswer">Correct
-				Answer
-			</div>
-			<div style="padding-top: 30px">
-				D:
-				<textarea id="Dcontent" style="width: 80%; height: 50px"></textarea>
-				<input id="3" type="radio" name="correctanswer">Correct
-				Answer
-			</div>
-			<br>
-			<button>Save</button>
-
-			<!-- Sticky Footer -->
-			<footer class="sticky-footer">
-				<div class="container my-auto">
-					<div class="copyright text-center my-auto">
-						<span>Copyright © Your Website 2018</span>
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					Câu hỏi
+					<div class="row">
+						<div class="col-12">
+							<textarea id="questioncontent" rows="4" class="form-control"></textarea>
+						</div>
 					</div>
 				</div>
-			</footer>
+				<div class="col-md-12 col-sm-12">
+					A.
+					<div class="row">
 
+						<div class="col-10">
+							<textarea id="Acontent" rows="1" class="form-control"></textarea>
+						</div>
+						<div class="col-2 ">
+							<input id="0" type="radio" name="correctanswer">Câu trả lời đúng
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					B.
+					<div class="row">
+
+						<div class="col-10">
+							<textarea id="Bcontent" rows="1" class="form-control"></textarea>
+						</div>
+						<div class="col-2 ">
+							<input id="0" type="radio" name="correctanswer">Câu trả lời đúng
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					C.
+					<div class="row">
+
+						<div class="col-10">
+							<textarea id="Ccontent" rows="1" class="form-control"></textarea>
+						</div>
+						<div class="col-2 ">
+							<input id="0" type="radio" name="correctanswer">Câu trả lời đúng
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					D.
+					<div class="row">
+
+						<div class="col-10">
+							<textarea id="Dcontent" rows="1" class="form-control"></textarea>
+						</div>
+						<div class="col-2 ">
+							<input id="0" type="radio" name="correctanswer">Câu trả lời đúng
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- /.content-wrapper -->
-
+		<center>
+			<br>
+			<button style="width: 100px" class="btn btn-primary">Lưu</button>
+		</center>
+		<!-- Sticky Footer -->
+		<footer class="sticky-footer">
+			<div class="container my-auto">
+				<div class="copyright text-center my-auto">
+					<span>Copyright © Your Website 2018</span>
+				</div>
+			</div>
+		</footer>
 	</div>
 </div>
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -141,5 +166,6 @@
 <!-- Demo scripts for this page-->
 <script src="js/demo/datatables-demo.js"></script>
 <script src="js/demo/chart-area-demo.js"></script>
+
 </body>
 </html>
