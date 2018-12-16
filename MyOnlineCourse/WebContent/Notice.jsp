@@ -92,7 +92,7 @@
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item active"><a class="nav-link"
-				href="index.html"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Trang
+				href="Home.jsp"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Trang
 						chủ</span>
 			</a></li>
 

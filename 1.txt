@@ -1,0 +1,62 @@
+﻿Chào thầy và các bạn sau đây nhóm 5, sáng T4 chúng em xin
+được demo ứng dụng hỗ trợ thi trắc nghiệm
+
+Bây giờ nhóm chúng em bắt đầu demo từng chức năng của ứng dụng
+
+
+
+Tên đề tài: Ứng dụng web hỗ trợ thi trắc nghiệm
+
+Sử dụng công nghệ: JAVA servlet, MVC framword
+
+Thành viên nhóm: 
+
+Dương Văn Cường	16110027
+Phạm Ngọc Hải	16110066	
+Đào Nhật Tâm	16110568
+
+Chức năng chính bao gồm:
+1) Đăng nhập và phân quyền
+	- Admin
+	- Giáo viên
+	- Người ra đề
+	- Người ra câu hỏi
+	- Sinh viên
+2) Đăng xuất
+	- Chức năng logout để khi giáo viên hay sinh viên 
+đã thực hiện xong công việc để nhường quyền thao tác cho
+người khác
+
+
+A) Admin (có thể sử dụng sử dụng tất cả các chức năng của
+ứng dụng)
+	- Lớp học của tôi (Do là admin không có đề thi nên sẽ không
+	hiện trên trang nhưng chúng ta có thêm lớp học vào)
+	- Danh sách đề thi
+	- Thêm đề thi
+	- Thêm câu hỏi
+	- Thêm tài khoản
+B) Giáo viên
+	- Lớp học của tôi
+-> Giáo viên có thể xem coi mình dạy những lớp học nào(thêm xóa lớp 
+học) và ở các lớp học dạy có các chức năng(thêm sinh viên, xóa sinh viên
+và danh sách đề thi của lớp học)
+C) Người ra đề
+	- Danh sách đề thi gồm chức năng thêm đề thi và xóa đề thi cho lớp học
+	- Thêm đề thi
+	- Và người ra đề có thể xem, thêm câu hỏi, xóa các câu trong đề
+
+- Chúng ta mới vừa tạo xong đề thi test 6 và được lưu dưới csdl
+D)Người ra câu hỏi
+	- Thêm câu hỏi 
+E) Sinh viên
+	- Lớp học của tôi(vào xem coi mình có những bài thi nào và thao
+tác làm bài trên tài khoản của mình)
+
+*) Các chức năng khác trong bài bao gồm:
+- Khi sinh viên làm bài thi xong báo kết quả và xuất ra file pdf
+- Nếu sinh viên đã làm bài thi rồi thì thông báo bài thi đã làm rồi
+
+**) Các chú thích của chương trình
+	- 1800000 tương ứng 30p
+	

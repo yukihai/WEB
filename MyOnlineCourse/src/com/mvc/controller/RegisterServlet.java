@@ -50,6 +50,9 @@ public class RegisterServlet extends HttpServlet {
 			{
 				color="green";
 				message="Register success";
+				request.setAttribute("color", color);
+				request.setAttribute("message", message);
+				request.getRequestDispatcher("Register.jsp").forward(request, response);
 			}
 			else
 			{
@@ -60,9 +63,7 @@ public class RegisterServlet extends HttpServlet {
 		{
 			message="Wrong confirm password";
 		}
-		request.setAttribute("color", color);
-		request.setAttribute("message", message);
-		request.getRequestDispatcher("Register.jsp").forward(request, response);
+		
 	}
 
 	/**
